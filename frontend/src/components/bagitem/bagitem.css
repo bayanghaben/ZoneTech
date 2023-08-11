@@ -1,0 +1,53 @@
+.bagitem-container {
+  display: flex;
+  height: 30vh;
+  box-sizing: border-box;
+  padding: 30px;
+  box-shadow: 0 0 20px rgb(199, 199, 199);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+}
+
+.bagitem-image {
+  height: 100%;
+}
+
+.bagitem-image img {
+  height: 100%;
+}
+
+.bagitem-information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.bagitem-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bagitem-description{
+    font-size: 18px;
+    color: grey;
+}
+
+.quantity-counter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.price-container {
+    font-size: 20px;
+    color: rgb(3, 184, 3);
+}

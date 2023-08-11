@@ -1,0 +1,69 @@
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-leftside {
+  height: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.logo-container {
+  height: 100%;
+}
+
+.logo-container img {
+  height: 100%;
+}
+
+.header-rightside {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.shopping-cart {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 22px;
+}
+
+.login-register-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  color: orange;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.user-image-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.user-name-container {
+  font-size: 18px;
+}

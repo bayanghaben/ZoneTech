@@ -1,0 +1,30 @@
+.hot-categories-title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.hot-categories-title-leftside {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.hot-categories-title-rightside {
+  color: orange;
+  font-size: 20px;
+}
+
+.hot-categories-title-rightside:hover {
+  text-decoration: underline;
+}
+
+.hot-categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

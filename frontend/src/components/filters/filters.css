@@ -1,0 +1,8 @@
+.filters-container {
+    display: flex;
+    gap: 5px;
+}
+
+.input-search-filters{
+    flex-grow: 1;
+}

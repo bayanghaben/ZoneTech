@@ -1,0 +1,33 @@
+.shoppingbag-container {
+  margin: 40px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.shoppingbag-leftside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shoppingbag-rightside {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 30vh;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 0 0 10px rgb(189, 189, 189);
+}
+
+.shoppingbag-rightside-title{
+    font-size: 20px;
+}

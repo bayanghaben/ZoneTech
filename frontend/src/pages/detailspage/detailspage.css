@@ -1,0 +1,71 @@
+.productdetail-container {
+  display: flex;
+  gap: 10px;
+  height: 70vh;
+  box-sizing: border-box;
+  padding: 80px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  box-shadow: 0 0 20px rgb(187, 187, 187);
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.productdetail-img-container {
+  height: 100%;
+}
+
+.productdetail-img-container img {
+  height: 100%;
+}
+
+.productdetail-rightside {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.prodcut-name-container {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.prodcut-price-container {
+  height: 50%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 10px rgb(222, 222, 222);
+  margin-top: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.prodcut-description-container {
+  color: rgb(152, 146, 146);
+  margin: 20px 0;
+}
+
+.prodcut-price{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .productdetail-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .productdetail-rightside{
+        width: 100%;
+    }
+}
